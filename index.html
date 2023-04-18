@@ -11,7 +11,63 @@
 <body>
   <div id="home-page">
     <div class="checkout-card-component">
-      Checkout Card Component Content
+
+      <section class="section section--header">
+        <h1 class="checkout-card-component__title">Order summary</h1>
+        <h2 class="checkout-card-component__desc">Check if your order matches</h2>
+      </section>
+
+      <section class="section section--main">
+        <div class="checkout-card-component__product-line" data-product-id="12345">
+          <div class="checkout-card-component__product-info">
+            <div class="checkout-card-component__product-image-container">
+              <img src="/assets/icons/product_cover.svg" alt="product cover" />
+            </div>
+            <div class="checkout-card-component__product-details">
+              <div class="checkout-card-component__product-title">Individual</div>
+              <div class="checkout-card-component__product-desc">1 account</div>
+            </div>
+          </div>
+          <div class="checkout-card-component__product-price">
+            $10.00
+            <span class="checkout-card-component__per-month-annotation">/month</span>
+          </div>
+        </div>
+
+        <hr class="checkout-card-component__stroke">
+
+        <div class="checkout-card-component__summary-line">
+          <div class="checkout-card-component__summary-title">Product summary:</div>
+          <div class="checkout-card-component__summary-price">
+            $10.00
+            <span class="checkout-card-component__per-month-annotation">/month</span>
+          </div>
+        </div>
+
+        <div class="checkout-card-component__total-line">
+          <div class="checkout-card-component__total-title">Total:</div>
+          <div class="checkout-card-component__total-price">
+            $10.00
+            <span class="checkout-card-component__per-month-annotation">/month</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--btns">
+        <button class="btn-primary" data-loading="1">
+          <div class="btn-primary__text">Confirm and pay</div>
+          <div class="btn-primary__loader">
+            <img src="/assets/icons/animated-loader.svg" alt="Loading…" />
+          </div>
+        </button>
+
+        <button class="btn-secondary" data-loading="1">
+          <div class="btn-secondary__text">Cancel order</div>
+          <div class="btn-secondary__loader">
+            <img src="/assets/icons/animated-loader.svg" alt="Loading…" />
+          </div>
+        </button>
+      </section>
     </div>
   </div>
 
