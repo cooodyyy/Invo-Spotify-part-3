@@ -17,6 +17,17 @@
   }
 
   // section main upper
+
+  & &__product-image-container {
+    --product-cover-size: 80px;
+
+    width: var(--product-cover-size);
+    height: var(--product-cover-size);
+    background-color: var(--color-content-200);
+    border-radius: var(--border-radius-s);
+    padding: 20px;
+  }
+
   & &__product-title {
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-l);
