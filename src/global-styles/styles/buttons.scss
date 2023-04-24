@@ -1,3 +1,49 @@
 button {
-   
+  cursor: pointer;
+  margin-block: 12px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding-block: 18px;
+  border-radius: var(--border-radius-l);
+
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  transition: 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+
+  &:hover {
+    background-color: var(--primary-color-dark);
+  }
+
+  &:active {
+    background-color: var(--color-green-900);
+  }
+  & &__loader {
+    display: none;
+  }
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-content-500);
+  border: 1px solid var(--color-content-500);
+
+  &:hover {
+    color: var(--color-content-700);
+    border: 1px solid var(--color-content-700);
+  }
+
+  &:active {
+    color: var(--color-content-900);
+    border: 1px solid var(--color-content-900);
+  }
+
+  & &__loader {
+    display: none;
+  }
 }
