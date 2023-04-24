@@ -1,64 +1,74 @@
 .checkout-card-component {
   // section header
   & &__title {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-xl);
     line-height: 35px;
     letter-spacing: 0em;
   }
 
   & &__desc {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-s);
     line-height: 18px;
     letter-spacing: 0em;
+
+    opacity: var(--less-opacity);
   }
 
   // section main upper
   & &__product-title {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-l);
     line-height: 20px;
     letter-spacing: 0em;
   }
 
   & &__product-desc {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-s);
     line-height: 15px;
     letter-spacing: 0em;
+
+    opacity: var(--less-opacity);
   }
 
   & &__product-price {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-s);
     line-height: 20px;
     letter-spacing: 0em;
   }
 
   & &__per-month-annotation {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: var(--font-size-xxs);
+    font-weight: var(--font-weight-s);
     line-height: 13px;
     letter-spacing: 0em;
+
+    opacity: var(--less-opacity);
   }
 
   // section main lower
   & &__summary-line {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-s);
     line-height: 18px;
     letter-spacing: 0em;
   }
 
+  & &__summary-title {
+    opacity: var(--less-opacity);
+  }
+
   & &__total-line {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-m);
     line-height: 26px;
     letter-spacing: 0em;
   }
 
   & &__total-price {
-    font-weight: 700;
+    font-weight: var(--font-weight-xl);
   }
 }

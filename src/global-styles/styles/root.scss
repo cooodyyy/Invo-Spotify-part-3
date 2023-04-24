@@ -5,6 +5,7 @@
 }
 
 :root {
+  // Colors
   --color-green-100: #d1f2d4;
   --color-green-200: #b2eab7;
   --color-green-300: #93e19a;
@@ -34,4 +35,24 @@
   --color-content-700: #bcbcbc;
   --color-content-800: #b5b5b5;
   --color-content-900: #a9a9a9;
+
+  --less-opacity: 50%;
+
+  // Roundings
+  --border-radius-l: 60px;
+  --border-radius-m: 24px;
+  --border-radius-s: 16px;
+
+  // Fonts
+  --font-size-xl: 32px;
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 12px;
+
+  --font-weight-xl: 700;
+  --font-weight-l: 600;
+  --font-weight-m: 500;
+  --font-weight-s: 400;
 }
