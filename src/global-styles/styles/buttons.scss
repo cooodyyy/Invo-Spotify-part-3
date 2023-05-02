@@ -3,7 +3,8 @@ button {
   display: block;
   width: 100%;
   border: none;
-  padding-block: 18px;
+  padding-block: 17px;
+  border: 1px solid transparent;
   border-radius: var(--border-radius-l);
 
   font-weight: 700;
