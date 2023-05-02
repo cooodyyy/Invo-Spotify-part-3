@@ -1,22 +1,48 @@
 .checkout-card-component {
+  background-color: var(--white);
+  border-radius: var(--border-radius-m);
+  padding: 2.5rem;
+  margin: 1rem;
+  width: 520px;
+  height: 550px;
+
   // section header
   & &__title {
+    // typography start
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-xl);
     line-height: 35px;
     letter-spacing: 0em;
+    // typography end
+
+    margin: 0;
   }
 
   & &__desc {
+    // typography start
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-s);
     line-height: 18px;
     letter-spacing: 0em;
+    // typography end
 
     opacity: var(--less-opacity);
+    margin-top: 12px;
+    margin-bottom: 2.5rem;
   }
 
   // section main upper
+  & &__product-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  & &__product-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 
   & &__product-image-container {
     --product-cover-size: 80px;
@@ -29,43 +55,65 @@
   }
 
   & &__product-title {
+    // typography start
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-l);
     line-height: 20px;
     letter-spacing: 0em;
+    // typography end
+
+    margin-bottom: 0.5rem;
   }
 
   & &__product-desc {
+    // typography start
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-s);
     line-height: 15px;
     letter-spacing: 0em;
+    // typography end
 
     opacity: var(--less-opacity);
   }
 
   & &__product-price {
+    // typography start
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-s);
     line-height: 20px;
     letter-spacing: 0em;
+    // typography end
+
+    position: relative;
+    bottom: 25px;
   }
 
   & &__per-month-annotation {
+    // typography start
     font-size: var(--font-size-xxs);
     font-weight: var(--font-weight-s);
     line-height: 13px;
     letter-spacing: 0em;
+    // typography end
 
     opacity: var(--less-opacity);
   }
 
+  & &__stroke {
+    border: none;
+    background-color: var(--black);
+    height: 1px;
+    margin-block: 1.5rem;
+  }
+
   // section main lower
   & &__summary-line {
+    // typography start
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-s);
     line-height: 18px;
     letter-spacing: 0em;
+    // typography end
   }
 
   & &__summary-title {
@@ -73,13 +121,17 @@
   }
 
   & &__total-line {
+    // typography start
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-m);
     line-height: 26px;
     letter-spacing: 0em;
+    // typography end
   }
 
   & &__total-price {
+    // typography start
     font-weight: var(--font-weight-xl);
+    // typography end
   }
 }

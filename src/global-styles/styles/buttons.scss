@@ -1,6 +1,5 @@
 button {
   cursor: pointer;
-  margin-block: 12px;
   display: block;
   width: 100%;
   border: none;
@@ -32,6 +31,8 @@ button {
   background: transparent;
   color: var(--color-content-500);
   border: 1px solid var(--color-content-500);
+
+  margin-top: 12px;
 
   &:hover {
     color: var(--color-content-700);
